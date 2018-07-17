@@ -7,7 +7,7 @@ def my_select(collection)
   
     #x = yield collection[i]
       #if x == true
-      if yield(collection[i]) == true
+      if yield collection[i] == true
         new_array << collection[i]
       end
     
